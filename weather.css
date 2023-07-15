@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+i, p, b {
+    /*! text-shadow: 2px 2px 5px white; */
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+    /*! padding-left: 10px; */
+    /*! padding-right: 10px; */
+}
+
+th > p, td > p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-today-graph {
+    width: 100%;
+}
+
+#weather-chart {
+    width: 100%;
+}
