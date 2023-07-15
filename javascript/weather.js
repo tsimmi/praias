@@ -7,43 +7,45 @@ document.addEventListener('DOMContentLoaded',
 function load_chart() {
     Chart.defaults.global.legend.display = false;
 
-    var chartData = weatherData; // .slice(0, 12);
-    //console.log(getYs(chartData));
+    const chartLabels = getLabels(weatherData)
 
-    var chartData = {
-        labels: getLabels(chartData),
-        datasets: [{
-            type: 'line',
-            label: 'Niceness',
-            yAxisID: 'nicenessAxis',
-            borderColor: 'rgb(252, 79, 56)',
-            backgroundColor: 'rgb(252, 79, 56)',
-            borderWidth: 3,
-            fill: false,
-            data: getYs(chartData)
-        }]
-    };
-
-    var ctx = document.getElementById('weather-chart').getContext('2d');
+    var ctx = document.getElementById('weather-chart');
     var myChart = new Chart(ctx, {
-        type: 'bar',
-        data: chartData,
+        type: 'line',
+        data: {
+            datasets: [{
+                type: 'line',
+                label: 'Niceness',
+                yAxisID: 'nicenessAxis',
+                borderColor: 'rgb(252, 79, 56)',
+                backgroundColor: 'rgb(252, 79, 56)',
+                borderWidth: 3,
+                fill: false,
+                data: getYs(weatherData)
+            }]
+        },
         options: {
-            animation: {
-                duration: 0
+            title: {
+                display: true,
+                text: beach
             },
-            hover: {
-                animationDuration: 0
-            },
-            responsive: true,
-            responsiveAnimationDuration: 0,
             scales: {
+                xAxes: [{
+                    type: 'category',
+                    labels: chartLabels,
+                    ticks: {
+                        autoSkip: true,
+                        autoSkipPadding: 40
+                    }
+                }],
                 yAxes: [{
                     id: 'nicenessAxis',
                     type: 'linear',
                     position: 'left',
                     ticks: {
-                      beginAtZero: true
+                      beginAtZero: true,
+                      maxTicksLimit: 20,
+                      suggestedMax: 1.0
                     },
                     gridLines: {
                         display: false
@@ -65,7 +67,7 @@ function getLabels(chartData) {
     for (index in chartData) {
         const date = new Date(chartData[index].timestamp * 1000)
         //labels.push(date.getHours() + 'h');
-        labels.push(date.toLocaleString('en-US'));
+        labels.push(date.toLocaleString('en-GB'));
     }
 
     return labels;
