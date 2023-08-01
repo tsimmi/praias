@@ -19,7 +19,8 @@ function load_chart() {
                 yAxisID: 'nicenessAxis',
                 borderColor: 'rgb(252, 79, 56)',
                 backgroundColor: 'rgb(252, 79, 56)',
-                borderWidth: 3,
+                borderWidth: 1,
+                pointRadius: 1,
                 fill: false,
                 data: getYs(weatherData)
             }]
@@ -48,7 +49,7 @@ function load_chart() {
                       suggestedMax: 1.0
                     },
                     gridLines: {
-                        display: false
+                        display: true
                     },
                     title: {
                         display: true,
@@ -67,7 +68,8 @@ function getLabels(chartData) {
     for (index in chartData) {
         const date = new Date(chartData[index].timestamp * 1000)
         //labels.push(date.getHours() + 'h');
-        labels.push(date.toLocaleString('en-GB'));
+        //labels.push(date.toLocaleString('en-GB'));
+        labels.push(date.toLocaleTimeString());
     }
 
     return labels;
