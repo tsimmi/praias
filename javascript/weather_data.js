@@ -1,32 +1,28 @@
 var beach = "Praia Pedras do corgo";
 var weatherData = [
     {
-        "timestamp": 1691125200, 
-        "niceness": 0.174
-    }, 
-    {
         "timestamp": 1691128800, 
-        "niceness": 0.16899999999999998
+        "niceness": 0.17800000000000002
     }, 
     {
         "timestamp": 1691132400, 
-        "niceness": 0.175
+        "niceness": 0.17899999999999996
     }, 
     {
         "timestamp": 1691136000, 
-        "niceness": 0.163
+        "niceness": 0.18499999999999994
     }, 
     {
         "timestamp": 1691139600, 
-        "niceness": 0.24299999999999994
+        "niceness": 0.23499999999999993
     }, 
     {
         "timestamp": 1691143200, 
-        "niceness": 0.3459999999999999
+        "niceness": 0.3126666666666666
     }, 
     {
         "timestamp": 1691146800, 
-        "niceness": 0.12266666666666667
+        "niceness": 0.14
     }, 
     {
         "timestamp": 1691150400, 
@@ -70,63 +66,63 @@ var weatherData = [
     }, 
     {
         "timestamp": 1691186400, 
-        "niceness": 0.08166666666666672
+        "niceness": 0.127
     }, 
     {
         "timestamp": 1691190000, 
-        "niceness": 0.2856666666666666
+        "niceness": 0.27633333333333326
     }, 
     {
         "timestamp": 1691193600, 
-        "niceness": 0.37166666666666665
+        "niceness": 0.38166666666666665
     }, 
     {
         "timestamp": 1691197200, 
-        "niceness": 0.4173333333333333
+        "niceness": 0.42766666666666664
     }, 
     {
         "timestamp": 1691200800, 
-        "niceness": 0.4013333333333333
+        "niceness": 0.373
     }, 
     {
         "timestamp": 1691204400, 
-        "niceness": 0.3529999999999999
+        "niceness": 0.36699999999999994
     }, 
     {
         "timestamp": 1691208000, 
-        "niceness": 0.3259999999999999
+        "niceness": 0.333
     }, 
     {
         "timestamp": 1691211600, 
-        "niceness": 0.344
+        "niceness": 0.32099999999999995
     }, 
     {
         "timestamp": 1691215200, 
-        "niceness": 0.37
+        "niceness": 0.377
     }, 
     {
         "timestamp": 1691218800, 
-        "niceness": 0.433
+        "niceness": 0.41333333333333333
     }, 
     {
         "timestamp": 1691222400, 
-        "niceness": 0.45733333333333337
+        "niceness": 0.45266666666666666
     }, 
     {
         "timestamp": 1691226000, 
-        "niceness": 0.472
+        "niceness": 0.4976666666666666
     }, 
     {
         "timestamp": 1691229600, 
-        "niceness": 0.30133333333333323
+        "niceness": 0.31999999999999995
     }, 
     {
         "timestamp": 1691233200, 
-        "niceness": 0.17099999999999999
+        "niceness": 0.18466666666666665
     }, 
     {
         "timestamp": 1691236800, 
-        "niceness": 0.033666666666666595
+        "niceness": 0.05866666666666666
     }, 
     {
         "timestamp": 1691240400, 
@@ -162,34 +158,38 @@ var weatherData = [
     }, 
     {
         "timestamp": 1691269200, 
-        "niceness": 0.06399999999999999
+        "niceness": 0.04866666666666663
     }, 
     {
         "timestamp": 1691272800, 
-        "niceness": 0.23866666666666675
+        "niceness": 0.2516666666666667
     }, 
     {
         "timestamp": 1691276400, 
-        "niceness": 0.34066666666666656
+        "niceness": 0.35566666666666663
     }, 
     {
         "timestamp": 1691280000, 
-        "niceness": 0.36366666666666664
+        "niceness": 0.3633333333333333
     }, 
     {
         "timestamp": 1691283600, 
-        "niceness": 0.4136666666666666
+        "niceness": 0.3633333333333333
     }, 
     {
         "timestamp": 1691287200, 
-        "niceness": 0.46266666666666667
+        "niceness": 0.43533333333333324
     }, 
     {
         "timestamp": 1691290800, 
-        "niceness": 0.44866666666666666
+        "niceness": 0.4586666666666666
     }, 
     {
         "timestamp": 1691294400, 
-        "niceness": 0.4169999999999999
+        "niceness": 0.4283333333333333
+    }, 
+    {
+        "timestamp": 1691298000, 
+        "niceness": 0.40599999999999997
     }
 ];
