@@ -1,156 +1,152 @@
 var beach = "Praia Pedras do corgo";
 var weatherData = [
     {
-        "timestamp": 1693522800, 
-        "niceness": 0.344
-    }, 
-    {
         "timestamp": 1693526400, 
-        "niceness": 0.35
+        "niceness": 0.383
     }, 
     {
         "timestamp": 1693530000, 
-        "niceness": 0.4029999999999999
+        "niceness": 0.427
     }, 
     {
         "timestamp": 1693533600, 
-        "niceness": 0.43299999999999994
+        "niceness": 0.44599999999999995
     }, 
     {
         "timestamp": 1693537200, 
-        "niceness": 0.449
+        "niceness": 0.47200000000000003
     }, 
     {
         "timestamp": 1693540800, 
-        "niceness": 0.49899999999999994
+        "niceness": 0.5159999999999999
     }, 
     {
         "timestamp": 1693544400, 
-        "niceness": 0.5449999999999999
+        "niceness": 0.5499999999999999
     }, 
     {
         "timestamp": 1693548000, 
-        "niceness": 0.5579999999999999
+        "niceness": 0.5609999999999999
     }, 
     {
         "timestamp": 1693551600, 
-        "niceness": 0.587
+        "niceness": 0.591
     }, 
     {
         "timestamp": 1693555200, 
-        "niceness": 0.623
+        "niceness": 0.605
     }, 
     {
         "timestamp": 1693558800, 
-        "niceness": 0.6523333333333333
+        "niceness": 0.6606666666666667
     }, 
     {
         "timestamp": 1693562400, 
-        "niceness": 0.567
+        "niceness": 0.576
     }, 
     {
         "timestamp": 1693566000, 
-        "niceness": 0.4703333333333333
+        "niceness": 0.4623333333333333
     }, 
     {
         "timestamp": 1693569600, 
-        "niceness": 0.506
+        "niceness": 0.42033333333333334
     }, 
     {
         "timestamp": 1693573200, 
-        "niceness": 0.33633333333333326
+        "niceness": 0.4563333333333333
     }, 
     {
         "timestamp": 1693576800, 
-        "niceness": 0.39733333333333326
+        "niceness": 0.3533333333333332
     }, 
     {
         "timestamp": 1693580400, 
-        "niceness": 0.429
+        "niceness": 0.3913333333333333
     }, 
     {
         "timestamp": 1693584000, 
-        "niceness": 0.49
+        "niceness": 0.567
     }, 
     {
         "timestamp": 1693587600, 
-        "niceness": 0.5973333333333333
+        "niceness": 0.49466666666666664
     }, 
     {
         "timestamp": 1693591200, 
-        "niceness": 0.53
+        "niceness": 0.4686666666666666
     }, 
     {
         "timestamp": 1693594800, 
-        "niceness": 0.4593333333333333
+        "niceness": 0.49666666666666665
     }, 
     {
         "timestamp": 1693598400, 
-        "niceness": 0.5053333333333333
+        "niceness": 0.53
     }, 
     {
         "timestamp": 1693602000, 
-        "niceness": 0.5363333333333332
+        "niceness": 0.4873333333333333
     }, 
     {
         "timestamp": 1693605600, 
-        "niceness": 0.47133333333333327
+        "niceness": 0.3886666666666666
     }, 
     {
         "timestamp": 1693609200, 
-        "niceness": 0.4343333333333333
+        "niceness": 0.3206666666666667
     }, 
     {
         "timestamp": 1693612800, 
-        "niceness": 0.19100000000000003
+        "niceness": 0.24299999999999994
     }, 
     {
         "timestamp": 1693616400, 
-        "niceness": 0.10099999999999996
+        "niceness": 0.19400000000000006
     }, 
     {
         "timestamp": 1693620000, 
-        "niceness": 0.137
+        "niceness": 0.24900000000000003
     }, 
     {
         "timestamp": 1693623600, 
-        "niceness": 0.163
+        "niceness": 0.269
     }, 
     {
         "timestamp": 1693627200, 
-        "niceness": 0.183
+        "niceness": 0.25599999999999995
     }, 
     {
         "timestamp": 1693630800, 
-        "niceness": 0.17
+        "niceness": 0.23700000000000002
     }, 
     {
         "timestamp": 1693634400, 
-        "niceness": 0.12800000000000006
+        "niceness": 0.21799999999999997
     }, 
     {
         "timestamp": 1693638000, 
-        "niceness": 0.17999999999999997
+        "niceness": 0.21199999999999997
     }, 
     {
         "timestamp": 1693641600, 
-        "niceness": 0.25799999999999995
+        "niceness": 0.252
     }, 
     {
         "timestamp": 1693645200, 
-        "niceness": 0.332
+        "niceness": 0.28200000000000003
     }, 
     {
         "timestamp": 1693648800, 
-        "niceness": 0.42433333333333323
+        "niceness": 0.22599999999999998
     }, 
     {
         "timestamp": 1693652400, 
-        "niceness": 0.24200000000000008
+        "niceness": 0.098
     }, 
     {
         "timestamp": 1693656000, 
-        "niceness": 0.031333333333333276
+        "niceness": 0
     }, 
     {
         "timestamp": 1693659600, 
@@ -166,30 +162,34 @@ var weatherData = [
     }, 
     {
         "timestamp": 1693670400, 
-        "niceness": 0.15999999999999998
+        "niceness": 0.058999999999999955
     }, 
     {
         "timestamp": 1693674000, 
-        "niceness": 0.39199999999999996
+        "niceness": 0.06133333333333328
     }, 
     {
         "timestamp": 1693677600, 
-        "niceness": 0.5093333333333333
+        "niceness": 0.17966666666666675
     }, 
     {
         "timestamp": 1693681200, 
-        "niceness": 0.5506666666666667
+        "niceness": 0.6113333333333334
     }, 
     {
         "timestamp": 1693684800, 
-        "niceness": 0.5886666666666667
+        "niceness": 0.4956666666666666
     }, 
     {
         "timestamp": 1693688400, 
-        "niceness": 0.4753333333333333
+        "niceness": 0.3829999999999999
     }, 
     {
         "timestamp": 1693692000, 
-        "niceness": 0.5143333333333333
+        "niceness": 0.5439999999999999
+    }, 
+    {
+        "timestamp": 1693695600, 
+        "niceness": 0.508
     }
 ];
