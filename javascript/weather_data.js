@@ -1,10 +1,6 @@
 var beach = "Praia Pedras do corgo";
 var weatherData = [
     {
-        "timestamp": 1697756400, 
-        "niceness": 0
-    }, 
-    {
         "timestamp": 1697760000, 
         "niceness": 0
     }, 
@@ -18,7 +14,7 @@ var weatherData = [
     }, 
     {
         "timestamp": 1697770800, 
-        "niceness": 0.0
+        "niceness": 0
     }, 
     {
         "timestamp": 1697774400, 
@@ -38,7 +34,7 @@ var weatherData = [
     }, 
     {
         "timestamp": 1697788800, 
-        "niceness": 0
+        "niceness": 0.0
     }, 
     {
         "timestamp": 1697792400, 
@@ -82,114 +78,118 @@ var weatherData = [
     }, 
     {
         "timestamp": 1697828400, 
-        "niceness": 0
+        "niceness": 0.05799999999999999
     }, 
     {
         "timestamp": 1697832000, 
-        "niceness": 0.02199999999999995
+        "niceness": 0
     }, 
     {
         "timestamp": 1697835600, 
-        "niceness": 0.15999999999999998
+        "niceness": 0.12599999999999995
     }, 
     {
         "timestamp": 1697839200, 
-        "niceness": 0.15199999999999994
+        "niceness": 0.181
     }, 
     {
         "timestamp": 1697842800, 
-        "niceness": 0.05400000000000002
+        "niceness": 0.09599999999999997
     }, 
     {
         "timestamp": 1697846400, 
-        "niceness": 0.04800000000000003
+        "niceness": 0.20199999999999993
     }, 
     {
         "timestamp": 1697850000, 
-        "niceness": 0.241
+        "niceness": 0.27099999999999996
     }, 
     {
         "timestamp": 1697853600, 
-        "niceness": 0.42500000000000004
+        "niceness": 0.333
     }, 
     {
         "timestamp": 1697857200, 
-        "niceness": 0.439
+        "niceness": 0.404
     }, 
     {
         "timestamp": 1697860800, 
-        "niceness": 0.48
+        "niceness": 0.46799999999999997
     }, 
     {
         "timestamp": 1697864400, 
-        "niceness": 0.622
+        "niceness": 0.5389999999999999
     }, 
     {
         "timestamp": 1697868000, 
-        "niceness": 0.612
+        "niceness": 0.6869999999999999
     }, 
     {
         "timestamp": 1697871600, 
-        "niceness": 0.44599999999999995
+        "niceness": 0.589
     }, 
     {
         "timestamp": 1697875200, 
-        "niceness": 0.34700000000000003
+        "niceness": 0.406
     }, 
     {
         "timestamp": 1697878800, 
-        "niceness": 0.306
+        "niceness": 0.311
     }, 
     {
         "timestamp": 1697882400, 
-        "niceness": 0.26599999999999996
+        "niceness": 0.26500000000000007
     }, 
     {
         "timestamp": 1697886000, 
-        "niceness": 0.22199999999999992
+        "niceness": 0.23299999999999998
     }, 
     {
         "timestamp": 1697889600, 
-        "niceness": 0.17
+        "niceness": 0.19699999999999995
     }, 
     {
         "timestamp": 1697893200, 
-        "niceness": 0.7
+        "niceness": 0.17199999999999996
     }, 
     {
         "timestamp": 1697896800, 
-        "niceness": 0.25700000000000006
+        "niceness": 0.20199999999999993
     }, 
     {
         "timestamp": 1697900400, 
-        "niceness": 0.30699999999999994
+        "niceness": 0.32399999999999995
     }, 
     {
         "timestamp": 1697904000, 
-        "niceness": 0.341
+        "niceness": 0.4029999999999999
     }, 
     {
         "timestamp": 1697907600, 
-        "niceness": 0.25799999999999995
+        "niceness": 0.41
     }, 
     {
         "timestamp": 1697911200, 
-        "niceness": 0.15
+        "niceness": 0.45899999999999996
     }, 
     {
         "timestamp": 1697914800, 
-        "niceness": 0.16399999999999992
+        "niceness": 0.44699999999999995
     }, 
     {
         "timestamp": 1697918400, 
-        "niceness": 0.33399999999999996
+        "niceness": 0.473
     }, 
     {
         "timestamp": 1697922000, 
-        "niceness": 0.444
+        "niceness": 0.474
     }, 
     {
         "timestamp": 1697925600, 
-        "niceness": 0.397
+        "niceness": 0.45899999999999996
+    }, 
+    {
+        "timestamp": 1697929200, 
+        "niceness": 0.34299999999999997
     }
 ];
