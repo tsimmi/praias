@@ -1,10 +1,6 @@
 var beach = "Praia Pedras do corgo";
 var weatherData = [
     {
-        "timestamp": 1698768000, 
-        "niceness": 0
-    }, 
-    {
         "timestamp": 1698771600, 
         "niceness": 0
     }, 
@@ -46,7 +42,7 @@ var weatherData = [
     }, 
     {
         "timestamp": 1698807600, 
-        "niceness": 0.13399999999999995
+        "niceness": 0.09900000000000002
     }, 
     {
         "timestamp": 1698811200, 
@@ -54,31 +50,31 @@ var weatherData = [
     }, 
     {
         "timestamp": 1698814800, 
-        "niceness": 0.2679999999999999
+        "niceness": 0.24
     }, 
     {
         "timestamp": 1698818400, 
-        "niceness": 0.308
+        "niceness": 0.275
     }, 
     {
         "timestamp": 1698822000, 
-        "niceness": 0.427
+        "niceness": 0.409
     }, 
     {
         "timestamp": 1698825600, 
-        "niceness": 0.482
+        "niceness": 0.47200000000000003
     }, 
     {
         "timestamp": 1698829200, 
-        "niceness": 0.42599999999999993
+        "niceness": 0.4119999999999999
     }, 
     {
         "timestamp": 1698832800, 
-        "niceness": 0.26500000000000007
+        "niceness": 0.24
     }, 
     {
         "timestamp": 1698836400, 
-        "niceness": 0.04299999999999997
+        "niceness": 0.013
     }, 
     {
         "timestamp": 1698840000, 
@@ -126,15 +122,15 @@ var weatherData = [
     }, 
     {
         "timestamp": 1698879600, 
-        "niceness": 0.01633333333333328
+        "niceness": 0.01799999999999997
     }, 
     {
         "timestamp": 1698883200, 
-        "niceness": 0.012333333333333366
+        "niceness": 0.014000000000000056
     }, 
     {
         "timestamp": 1698886800, 
-        "niceness": 0.016000000000000014
+        "niceness": 0.017666666666666705
     }, 
     {
         "timestamp": 1698890400, 
@@ -186,10 +182,14 @@ var weatherData = [
     }, 
     {
         "timestamp": 1698933600, 
-        "niceness": 0
+        "niceness": 0.0
     }, 
     {
         "timestamp": 1698937200, 
-        "niceness": 0
+        "niceness": 0.0
+    }, 
+    {
+        "timestamp": 1698940800, 
+        "niceness": 0.0
     }
 ];
