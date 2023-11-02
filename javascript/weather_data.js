@@ -1,20 +1,16 @@
 var beach = "Praia Pedras do corgo";
 var weatherData = [
     {
-        "timestamp": 1698879600, 
+        "timestamp": 1698883200, 
         "niceness": 0.03133333333333337
     }, 
     {
-        "timestamp": 1698883200, 
+        "timestamp": 1698886800, 
         "niceness": 0.028666666666666646
     }, 
     {
-        "timestamp": 1698886800, 
-        "niceness": 0.026000000000000037
-    }, 
-    {
         "timestamp": 1698890400, 
-        "niceness": 0.02466666666666661
+        "niceness": 0.02433333333333335
     }, 
     {
         "timestamp": 1698894000, 
@@ -50,7 +46,7 @@ var weatherData = [
     }, 
     {
         "timestamp": 1698922800, 
-        "niceness": 0.0
+        "niceness": 0
     }, 
     {
         "timestamp": 1698926400, 
@@ -138,7 +134,7 @@ var weatherData = [
     }, 
     {
         "timestamp": 1699002000, 
-        "niceness": 0.0
+        "niceness": 0
     }, 
     {
         "timestamp": 1699005600, 
@@ -158,15 +154,15 @@ var weatherData = [
     }, 
     {
         "timestamp": 1699020000, 
-        "niceness": 0.020000000000000004
+        "niceness": 0.005999999999999994
     }, 
     {
         "timestamp": 1699023600, 
-        "niceness": 0.138
+        "niceness": 0
     }, 
     {
         "timestamp": 1699027200, 
-        "niceness": 0.27
+        "niceness": 0
     }, 
     {
         "timestamp": 1699030800, 
@@ -190,6 +186,10 @@ var weatherData = [
     }, 
     {
         "timestamp": 1699048800, 
+        "niceness": 0
+    }, 
+    {
+        "timestamp": 1699052400, 
         "niceness": 0
     }
 ];
