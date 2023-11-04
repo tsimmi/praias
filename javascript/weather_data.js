@@ -1,10 +1,6 @@
 var beach = "Praia Pedras do corgo";
 var weatherData = [
     {
-        "timestamp": 1699117200, 
-        "niceness": 0
-    }, 
-    {
         "timestamp": 1699120800, 
         "niceness": 0
     }, 
@@ -142,43 +138,43 @@ var weatherData = [
     }, 
     {
         "timestamp": 1699243200, 
-        "niceness": 0.013999999999999934
+        "niceness": 0
     }, 
     {
         "timestamp": 1699246800, 
-        "niceness": 0.01699999999999997
+        "niceness": 0
     }, 
     {
         "timestamp": 1699250400, 
-        "niceness": 0.041999999999999954
+        "niceness": 0
     }, 
     {
         "timestamp": 1699254000, 
-        "niceness": 0.10099999999999996
+        "niceness": 0
     }, 
     {
         "timestamp": 1699257600, 
-        "niceness": 0.13
+        "niceness": 0.05099999999999999
     }, 
     {
         "timestamp": 1699261200, 
-        "niceness": 0.7
+        "niceness": 0.10599999999999994
     }, 
     {
         "timestamp": 1699264800, 
-        "niceness": 0.08799999999999997
+        "niceness": 0.14699999999999996
     }, 
     {
         "timestamp": 1699268400, 
-        "niceness": 0.215
+        "niceness": 0.15499999999999997
     }, 
     {
         "timestamp": 1699272000, 
-        "niceness": 0.182
+        "niceness": 0.17999999999999997
     }, 
     {
         "timestamp": 1699275600, 
-        "niceness": 0.17699999999999994
+        "niceness": 0.171
     }, 
     {
         "timestamp": 1699279200, 
@@ -186,10 +182,14 @@ var weatherData = [
     }, 
     {
         "timestamp": 1699282800, 
-        "niceness": 0.21199999999999997
+        "niceness": 0.20099999999999998
     }, 
     {
         "timestamp": 1699286400, 
-        "niceness": 0.181
+        "niceness": 0.22599999999999998
+    }, 
+    {
+        "timestamp": 1699290000, 
+        "niceness": 0.25499999999999995
     }
 ];
