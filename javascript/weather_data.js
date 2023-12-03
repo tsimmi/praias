@@ -1,10 +1,6 @@
 var beach = "Praia Pedras do corgo";
 var weatherData = [
     {
-        "timestamp": 1701640800, 
-        "niceness": 0
-    }, 
-    {
         "timestamp": 1701644400, 
         "niceness": 0.21199999999999997
     }, 
@@ -191,5 +187,9 @@ var weatherData = [
     {
         "timestamp": 1701810000, 
         "niceness": 0.357
+    }, 
+    {
+        "timestamp": 1701813600, 
+        "niceness": 0.39299999999999996
     }
 ];
