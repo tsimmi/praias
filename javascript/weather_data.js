@@ -1,64 +1,60 @@
 var beach = "Praia Pedras do corgo";
 var weatherData = [
     {
-        "timestamp": 1702962000, 
-        "niceness": 0.474
-    }, 
-    {
         "timestamp": 1702965600, 
-        "niceness": 0.496
+        "niceness": 0.473
     }, 
     {
         "timestamp": 1702969200, 
-        "niceness": 0.482
+        "niceness": 0.44499999999999995
     }, 
     {
         "timestamp": 1702972800, 
-        "niceness": 0.494
+        "niceness": 0.46199999999999997
     }, 
     {
         "timestamp": 1702976400, 
-        "niceness": 0.5089999999999999
+        "niceness": 0.473
     }, 
     {
         "timestamp": 1702980000, 
-        "niceness": 0.507
+        "niceness": 0.4709999999999999
     }, 
     {
         "timestamp": 1702983600, 
-        "niceness": 0.46599999999999997
+        "niceness": 0.42500000000000004
     }, 
     {
         "timestamp": 1702987200, 
-        "niceness": 0.416
+        "niceness": 0.33599999999999997
     }, 
     {
         "timestamp": 1702990800, 
-        "niceness": 0.35
+        "niceness": 0.3259999999999999
     }, 
     {
         "timestamp": 1702994400, 
-        "niceness": 0.27199999999999996
+        "niceness": 0.30199999999999994
     }, 
     {
         "timestamp": 1702998000, 
-        "niceness": 0.16899999999999998
+        "niceness": 0.22599999999999998
     }, 
     {
         "timestamp": 1703001600, 
-        "niceness": 0.23799999999999996
+        "niceness": 0.39
     }, 
     {
         "timestamp": 1703005200, 
-        "niceness": 0.284
+        "niceness": 0.254
     }, 
     {
         "timestamp": 1703008800, 
-        "niceness": 0.7
+        "niceness": 0.13599999999999998
     }, 
     {
         "timestamp": 1703012400, 
-        "niceness": 0.16399999999999992
+        "niceness": 0.2679999999999999
     }, 
     {
         "timestamp": 1703016000, 
@@ -66,43 +62,43 @@ var weatherData = [
     }, 
     {
         "timestamp": 1703019600, 
-        "niceness": 0.482
+        "niceness": 0.4689999999999999
     }, 
     {
         "timestamp": 1703023200, 
-        "niceness": 0.501
+        "niceness": 0.508
     }, 
     {
         "timestamp": 1703026800, 
-        "niceness": 0.49100000000000005
+        "niceness": 0.4779999999999999
     }, 
     {
         "timestamp": 1703030400, 
-        "niceness": 0.415
+        "niceness": 0.46199999999999997
     }, 
     {
         "timestamp": 1703034000, 
-        "niceness": 0.372
+        "niceness": 0.41800000000000004
     }, 
     {
         "timestamp": 1703037600, 
-        "niceness": 0.493
+        "niceness": 0.501
     }, 
     {
         "timestamp": 1703041200, 
-        "niceness": 0.25799999999999995
+        "niceness": 0.345
     }, 
     {
         "timestamp": 1703044800, 
-        "niceness": 0.32299999999999995
+        "niceness": 0.369
     }, 
     {
         "timestamp": 1703048400, 
-        "niceness": 0.17800000000000002
+        "niceness": 0.319
     }, 
     {
         "timestamp": 1703052000, 
-        "niceness": 0
+        "niceness": 0.00399999999999997
     }, 
     {
         "timestamp": 1703055600, 
@@ -166,30 +162,34 @@ var weatherData = [
     }, 
     {
         "timestamp": 1703109600, 
-        "niceness": 0.008999999999999952
+        "niceness": 0
     }, 
     {
         "timestamp": 1703113200, 
-        "niceness": 0.11500000000000005
+        "niceness": 0.142
     }, 
     {
         "timestamp": 1703116800, 
-        "niceness": 0.176
+        "niceness": 0.17999999999999997
     }, 
     {
         "timestamp": 1703120400, 
-        "niceness": 0.23299999999999998
+        "niceness": 0.228
     }, 
     {
         "timestamp": 1703124000, 
-        "niceness": 0.275
+        "niceness": 0.26599999999999996
     }, 
     {
         "timestamp": 1703127600, 
-        "niceness": 0.2879999999999999
+        "niceness": 0.26299999999999996
     }, 
     {
         "timestamp": 1703131200, 
-        "niceness": 0.283
+        "niceness": 0.228
+    }, 
+    {
+        "timestamp": 1703134800, 
+        "niceness": 0.175
     }
 ];
